@@ -1,0 +1,11 @@
+# Site settings
+title: Heart Bleeds Team
+email: contact@heartbleeds.org
+description: > # this means to ignore newlines until "baseurl:"
+  Leaking one drop at a time.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.heartbleeds.org" # the base hostname & protocol for your site
+github_username:  minbi
+
+# Build settings
+markdown: kramdown
