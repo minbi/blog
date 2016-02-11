@@ -1,6 +1,7 @@
 # Site settings
 title: Heart Bleeds Team
 email: contact@heartbleeds.org
+avatar: "./icon.png"
 description: > # this means to ignore newlines until "baseurl:"
   Leaking one drop at a time.
 baseurl: "" # the subpath of your site, e.g. /blog/
