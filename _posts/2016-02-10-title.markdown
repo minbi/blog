@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Website is up!"
+date:   2016-02-10 21:33:38
+categories: announcement
+---
+As you can see our site is up and running, if just a bit empty.
