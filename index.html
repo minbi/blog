@@ -6,4 +6,18 @@ layout: default
 
 <h1>Please give suggestions for what to do with the landing space.</h1>
 
+<h2>Most Recent Post</h2>
+<ul class="post-list">
+{% for post in site.posts %}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+  </li>
+{% break %}
+{% endfor %}
+</ul>
+
 </div>
